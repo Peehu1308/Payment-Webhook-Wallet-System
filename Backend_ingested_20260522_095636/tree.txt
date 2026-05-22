@@ -1,0 +1,13 @@
+Directory structure:
+└── Backend/
+    ├── index.js
+    ├── package.json
+    ├── sql/
+    │   └── schema.sql
+    └── src/
+        ├── config/
+        │   └── db.js
+        ├── models/
+        │   └── user.model.js
+        └── routes/
+            └── auth.js
