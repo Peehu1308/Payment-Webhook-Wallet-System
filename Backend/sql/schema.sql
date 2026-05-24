@@ -8,7 +8,7 @@ created_at TIMESTAMP DEFAULT NOW()
 
 CREATE TABLE wallets(
 id uuid PRIMARY KEY DEFAULT gen_random_uuid(),
-user_id UUID UNIQUE REFRENCES users(id) ON DELETE CASCADE,
+user_id UUID UNIQUE REFERENCES users(id) ON DELETE CASCADE,
 balance NUMERIC(15,2)DEFAULT 0.00,
 created_at TIMESTAMP DEFAULT NOW()
  );
