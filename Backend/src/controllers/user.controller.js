@@ -13,10 +13,16 @@ const register=async(req,res)=>{
 
     catch(err){
         res.status(400).json({
-            message:error.message
+            message:err.message
         });
     }
 };
+
+const login=async(req,res)=>{
+    try{
+        const {}
+    }
+}
 
 module.exports={
     register
