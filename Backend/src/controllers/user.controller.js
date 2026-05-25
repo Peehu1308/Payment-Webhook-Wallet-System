@@ -1,4 +1,5 @@
 const userService =require('../services/user.services')
+const 
 
 const register=async(req,res)=>{
     try{
@@ -20,7 +21,8 @@ const register=async(req,res)=>{
 
 const login=async(req,res)=>{
     try{
-        const {}
+        const {email,password}=req.body;
+        const user=await user
     }
 }
 
